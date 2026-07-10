@@ -10,6 +10,15 @@
 img {
   max-width: 100%;
 }
+.common-btn {
+  background-color: #1d4ed8;
+  color: #ffffff;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
 
 /* Header style */
 .header-parent {
@@ -30,14 +39,6 @@ img {
   text-decoration: none;
   font-size: 16px;
   color: #575757;
-}
-.common-btn {
-  background-color: #1d4ed8;
-  color: #ffffff;
-  padding: 15px 30px;
-  border-radius: 10px;
-  border: none;
-  font-size: 16px;
 }
 
 /* Meet the speakers section style */
@@ -73,6 +74,7 @@ img {
   color: #2563eb;
   font-size: 12px;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 .speakers-image-parent .speakers-image h2 {
   color: #0d1b2a;
@@ -82,4 +84,160 @@ img {
 .speakers-image-parent .speakers-image .image-p-2 {
   color: #575757;
   font-size: 14px;
+}
+
+/*  Secure your spot section start  */
+.secure-spot-parent {
+  padding: 100px;
+}
+.secure-spot-parent .secure-spot-heading {
+  text-align: center;
+}
+.secure-spot-parent .secure-spot-heading h2 {
+  color: #0d1b2a;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.secure-spot-parent .secure-spot-heading p {
+  color: #575757;
+  font-size: 16px;
+}
+
+.secure-spot-parent-card .secure-spot-card-top-text p {
+  text-transform: uppercase;
+  color: #888888;
+  font-size: 13px;
+}
+.secure-spot-parent-card .secure-spot-card-top-text h2 {
+  color: #0d1b2a;
+  font-size: 44px;
+}
+.secure-spot-parent-card {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 32px;
+}
+.secure-spot-card {
+  border: 1px solid #e5e7eb;
+  padding: 32px;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+.secure-spot-card-text p {
+  text-transform: uppercase;
+  color: #888888;
+  font-size: 13px;
+}
+.secure-spot-card-text h2 {
+  color: #0d1b2a;
+  font-size: 44px;
+}
+.secure-spot-card-text span {
+  color: #888888;
+  font-size: 13px;
+}
+
+.secure-spot-card-list ul {
+  margin-bottom: 20px;
+}
+.secure-spot-card-list ul li {
+  list-style: none;
+  color: #333333;
+  font-size: 14px;
+  margin-bottom: 18px;
+  position: relative;
+  padding-left: 17px;
+}
+.secure-spot-card-list ul li::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: #2563eb;
+  border-radius: 50%;
+  left: 0;
+  top: 6px;
+}
+
+/*Btn Card diffrent style */
+.secure-spot-btn-1 {
+  border: 1px solid #2563eb;
+  color: #2563eb;
+  background: none;
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+  padding: 11px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.secure-spot-btn-2 {
+  border: 1px solid #2563eb;
+  background-color: #2563eb;
+  color: #ffffff;
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+  padding: 11px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.secure-spot-btn-3 {
+  border: 1px solid #0d1b2a;
+  background: none;
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+  padding: 11px;
+  font-size: 14px;
+  color: #0d1b2a;
+  cursor: pointer;
+}
+.secure-spot-card-line {
+  width: 100%;
+  border-top: 1px solid #d9d9d9;
+  height: 1px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* Middle card style only  */
+.secure-spot-card-2 {
+  background-color: #0d1b2a;
+  padding: 32px;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+.secure-spot-card-text-2 p {
+  color: #93c5fd;
+  font-size: 13px;
+}
+.secure-spot-card-text-2 h2 {
+  color: #ffffff;
+  font-size: 44px;
+}
+.secure-spot-card-text-2 span {
+  color: rgba(225 225 225 / 50%);
+  font-size: 13px;
+}
+.secure-spot-card-list-2 ul li {
+  color: rgba(225 225 225 / 80%);
+  font-size: 14px;
+  margin-bottom: 18px;
+  list-style: none;
+  position: relative;
+  padding-left: 17px;
+}
+.secure-spot-card-list-2 ul li::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: #2563eb;
+  border-radius: 50%;
+  left: 0;
+  top: 6px;
 }
