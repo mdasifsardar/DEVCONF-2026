@@ -241,3 +241,39 @@ img {
   left: 0;
   top: 6px;
 }
+
+/* Footer style */
+footer {
+  background-color: #0d1b2a;
+  padding: 56px 60px;
+}
+
+.footer-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-left i {
+  filter: brightness(0) invert(1);
+  margin: 5px;
+  cursor: pointer;
+}
+.footer-divider {
+  width: 100%;
+  border-top: 1px solid #d9d9d9;
+  height: 1px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.footer-bottom {
+  color: rgba(225 225 225 / 40%);
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+.footer-policy a {
+  text-decoration: none;
+  color: rgba(225 225 225 / 40%);
+  margin: 5px;
+  font-size: 16px;
+}
