@@ -22,7 +22,7 @@ img {
 
 /* Header style */
 .header-parent {
-  padding: 20px 0;
+  padding: 15px 0;
 }
 .header-parent nav {
   display: flex;
@@ -39,6 +39,53 @@ img {
   text-decoration: none;
   font-size: 16px;
   color: #575757;
+}
+.banner-btn {
+  background-color: white;
+}
+/* Banner style */
+.banner-parent {
+  width: 100%;
+  min-height: 786px;
+  background:
+    linear-gradient(
+      to right,
+      #000000 0%,
+      rgba(0, 0, 0, 0.8) 30%,
+      rgba(0, 0, 0, 0.4) 60%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url("img/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.banner-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  color: #ffffff;
+  gap: 10px;
+}
+.banner-heading-parent p {
+  text-align: center;
+  max-width: 630px;
+  line-height: 28px;
+  margin: 0 auto;
+  color: rgba(225 225 225 / 90%);
+  font-size: 22px;
+  margin-top: 10px;
+}
+.btn-parent {
+  position: absolute;
+  left: 50%;
+  bottom: 70px;
+  transform: translateX(-50%);
 }
 
 /* Meet the speakers section style */
